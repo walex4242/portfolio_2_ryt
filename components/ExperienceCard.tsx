@@ -38,7 +38,8 @@ export default function ExperienceCard({ experience }: Props) {
               className="h-10 w-10 rounded-full"
               src={urlFor(technology.image).url()}
               alt=""
-              
+              width={300}
+              height={250}
             />
           ))}
         </div>
