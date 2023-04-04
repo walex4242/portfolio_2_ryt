@@ -39,7 +39,7 @@ export default function Header({ socials }: Props) {
           />
         ))}
       </motion.div>
-
+      <Link href='#email'>
       <motion.div
       
         initial={{
@@ -69,7 +69,7 @@ export default function Header({ socials }: Props) {
         </p>
         
       </motion.div>
-      
+      </Link>
     </header>
   );
 }

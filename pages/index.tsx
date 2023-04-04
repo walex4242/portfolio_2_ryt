@@ -63,7 +63,7 @@ const Home = ({ pageInfo, experiences, skills, projects, socials }: Props) => {
             <div className="max-w-fit hover:after:content-['↑'] hover:after:absolute after:translate-x-10 hover:after:translate-x-14 after:-translate-y-10 hover:after:-translate-y-10 hover:after:font-bold hover:after:text-3xl hover:after:text-[#FFE55C]/90 hover:after:transition-all hover:after:duration-300 hover:after:ease-in-out hover:after:opacity-100 after:opacity-0 hover:after:-mx-5 hover:after:px-5">
               <Image
                 className="h-10 w-10 rounded-full filter grayscale hover:grayscale-0 cursor-pointer  "
-                src="https://i.ibb.co/svscfdV/logo-2.png"
+                src="https://e1.pngegg.com/pngimages/950/589/png-clipart-circular-icon-set-word-w-logo-thumbnail.png"
                 alt=""
                 width={300}
                 height={250}
@@ -98,4 +98,4 @@ export const getStaticProps: GetStaticProps<Props> = async () => {
     // - At most once every 10 seconds
     revalidate: 10,
   };
-};
+}; 

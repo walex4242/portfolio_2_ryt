@@ -10,7 +10,7 @@ const nextConfig = {
     ignoreBuildErrors: true,
   },
   images: {
-		domains: ['cdn.sanity.io', 'i.ibb.co'], 
+		domains: ['cdn.sanity.io', 'e1.pngegg.com'], 
 }
 }
 
