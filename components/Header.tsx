@@ -39,6 +39,7 @@ export default function Header({ socials }: Props) {
           />
         ))}
       </motion.div>
+
       <motion.div
 
         initial={{
@@ -56,6 +57,7 @@ export default function Header({ socials }: Props) {
         }}
         className="flex flex-row items-center text-gray-300 cursor-pointer"
       >
+
         <SocialIcon className="cursor-pointer" network="email" fgColor="grey" bgColor="transparent" />
         <Link href='#email'>
           <p className="uppercase hidden md:inline-flex text-sm text-gray-400">
@@ -63,6 +65,7 @@ export default function Header({ socials }: Props) {
           </p>
         </Link>
       </motion.div>
-    </header>
+
+    </header >
   );
 }
